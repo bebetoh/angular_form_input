@@ -6,6 +6,5 @@ import { Component } from '@angular/core';
     <input #box (keyup)="0">
       <p>{{box.value}}</p>
       `
-    
   })
   export class LoopbackComponent { }
