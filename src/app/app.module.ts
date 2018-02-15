@@ -3,9 +3,13 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 
+import { LoopbackComponent } from './loop-back.component';
+
+
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    LoopbackComponent
   ],
   imports: [
     BrowserModule
