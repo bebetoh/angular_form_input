@@ -7,4 +7,4 @@ import { Component } from '@angular/core';
       <p>{{box.value}}</p>
       `
   })
-  export class LoopbackComponent { }
+  export class LoopBackComponent { }

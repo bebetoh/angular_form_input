@@ -3,13 +3,16 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 
-import { LoopbackComponent } from './loop-back.component';
+import { LoopBackComponent } from './loop-back.component';
+
+import { ClickMeComponent } from './click-me.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    LoopbackComponent
+    LoopBackComponent,
+    ClickMeComponent
   ],
   imports: [
     BrowserModule
