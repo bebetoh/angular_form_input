@@ -18,12 +18,30 @@ export class KeyUpComponent_v1   {
 
     values2= '';
 
-    
+
     onKeyAny(event: any) {
-        this.values += event.target.value + ' | ';
+        this.values += event.key + ' | ';
     }
-    
+
     onKeyTipado(event: KeyboardEvent) {
         this.values2 += (<HTMLInputElement>event.target).value + ' | ';
     }
+}
+
+
+@Component({
+    selector: 'app-key-up2',
+    template: `
+    <input #box (keyup)="onKey(box.value)">
+    <p>{{values}}</p>
+  `
+})
+
+export class KeyUpComponent_v2 {
+
+    values = '';
+    onKey(value: string) {
+        this.values += value + ' | ';
+    }
+
 }
