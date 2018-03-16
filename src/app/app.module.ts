@@ -9,6 +9,8 @@ import { ClickMeComponent } from './click-me.component';
 
 import { KeyUpComponent_v1, KeyUpComponent_v2, KeyUpComponent_v3, KeyUpComponent_v4 } from './keyup.components';
 
+import { LittleTourComponent } from './little-tour.component'
+
 
 
 @NgModule({
@@ -19,7 +21,8 @@ import { KeyUpComponent_v1, KeyUpComponent_v2, KeyUpComponent_v3, KeyUpComponent
     KeyUpComponent_v1,
     KeyUpComponent_v2,
     KeyUpComponent_v3,
-    KeyUpComponent_v4
+    KeyUpComponent_v4,
+    LittleTourComponent
   ],
   imports: [
     BrowserModule
